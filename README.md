@@ -32,6 +32,7 @@ Lang:
     - "&8-&7&o /cstack view"
     - "&8-&7&o /cstack reload"
     - "&8-&7&o /cstack credits"
+    - "&8-&7&o /cstack version"
   
 Settings:
   Prevent-Placement: true # Should CommandStack items be unplacable
@@ -46,4 +47,5 @@ Permissions:
   View: "commandstack.view"
   Remove: "commandstack.remove"
   Add: "commandstack.add"
+  Version: "commandstack.version"
 ```

@@ -1,0 +1,27 @@
+Lang:
+  Player-Only-Command: "Only players can use this command"
+  Not-Holding-Item: "You must be holding an item to use this command"
+  No-Commands: "This item has no commands assigned"
+  Does-Not-Have-Command: "This item does not have this command"
+  Removed-Command: "Removed command %cmd%"
+  Removed-All-Commands: "Removed all commands"
+  Added-Command: "Added command %cmd%"
+  No-Permissions: "&cNo permissions!"
+  Reloaded: "&aReloaded successfully"
+  Usage:
+    - "&7Usage:"
+    - "&8-&7&o /cstack add <command>"
+    - "&8-&7&o /cstack remove <command/all>"
+    - "&8-&7&o /cstack view"
+    - "&8-&7&o /cstack reload"
+    - "&8-&7&o /cstack credits"
+  
+Settings:
+  Prevent-Placement: true # Should CommandStack items be unplacable
+  
+Permissions:
+  Use: "commandstack.use"
+  Reload: "commandstack.reload"
+  View: "commandstack.view"
+  Remove: "commandstack.remove"
+  Add: "commandstack.add"

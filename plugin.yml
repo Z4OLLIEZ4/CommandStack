@@ -1,0 +1,20 @@
+main: com.olliez4.commandstack.main.CommandStack
+name: CommandStack
+author: OLLIEZ4
+version: 1.0
+load: STARTUP
+dependencies: [Interface4]
+description: A simple plugin to add commands to items
+website: https://ollieprojects.ga/
+
+commands:
+  commandstack:
+    description: Primary command
+    usage: /cstack <add - remove - view - reload - credits>
+    aliases: cstack
+    permission: commandstack.use
+    
+permissions:
+  commandstack.use:
+    description: Allows usage of /commandstack
+    default: OP

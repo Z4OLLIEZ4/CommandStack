@@ -18,6 +18,10 @@ Lang:
   
 Settings:
   Prevent-Placement: true # Should CommandStack items be unplacable
+  Updater:
+    Alert-OP: true # Should OP players be notified if an update is available on join
+    Auto-Update: true # Should CommandStack automatically update to the latest version (Recommended)
+    Auto-Restart: true # Should CommandStack automatically restart the server if the plugin updates to apply changes
   
 Permissions:
   Use: "commandstack.use"

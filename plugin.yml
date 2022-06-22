@@ -1,7 +1,7 @@
 main: com.olliez4.commandstack.main.CommandStack
 name: CommandStack
 author: OLLIEZ4
-version: 1.0
+version: 1.1
 load: STARTUP
 dependencies: [Interface4]
 description: A simple plugin to add commands to items

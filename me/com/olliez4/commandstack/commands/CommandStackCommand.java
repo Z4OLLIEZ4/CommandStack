@@ -41,6 +41,13 @@ public class CommandStackCommand implements CommandExecutor {
 								sender.sendMessage(main.getPrefix() + ChatColor.translateAlternateColorCodes('&',
 										main.getConfig().getString("Lang.No-Permissions")));
 							}
+						} else if (args[0].equalsIgnoreCase("version")) {
+							if (p.hasPermission(main.getConfig().getString("Permissions.Remove"))) {
+								sender.sendMessage(main.getPrefix() + "Running v" + main.getDescription().getVersion());
+							} else {
+								sender.sendMessage(main.getPrefix() + ChatColor.translateAlternateColorCodes('&',
+										main.getConfig().getString("Lang.No-Permissions")));
+							}
 						} else if (args[0].equalsIgnoreCase("view")) {
 							if (p.hasPermission(main.getConfig().getString("Permissions.View"))) {
 								itemUtils.listCommands(p, p.getInventory().getItemInMainHand());
@@ -67,6 +74,13 @@ public class CommandStackCommand implements CommandExecutor {
 					} else {
 						if (args[0].equalsIgnoreCase("credits")) {
 							sender.sendMessage(main.getPrefix() + "CommandStack was created by OLLIEZ4");
+						} else if (args[0].equalsIgnoreCase("version")) {
+							if (p.hasPermission(main.getConfig().getString("Permissions.Remove"))) {
+								sender.sendMessage(main.getPrefix() + "Running v" + main.getDescription().getVersion());
+							} else {
+								sender.sendMessage(main.getPrefix() + ChatColor.translateAlternateColorCodes('&',
+										main.getConfig().getString("Lang.No-Permissions")));
+							}
 						} else if (args[0].equalsIgnoreCase("reload")) {
 							if (p.hasPermission(main.getConfig().getString("Permissions.Reload"))) {
 								main.reloadConfig();
@@ -84,6 +98,13 @@ public class CommandStackCommand implements CommandExecutor {
 				} else {
 					if (args[0].equalsIgnoreCase("credits")) {
 						sender.sendMessage(main.getPrefix() + "CommandStack was created by OLLIEZ4");
+					} else if (args[0].equalsIgnoreCase("version")) {
+						if (p.hasPermission(main.getConfig().getString("Permissions.Remove"))) {
+							sender.sendMessage(main.getPrefix() + "Running v" + main.getDescription().getVersion());
+						} else {
+							sender.sendMessage(main.getPrefix() + ChatColor.translateAlternateColorCodes('&',
+									main.getConfig().getString("Lang.No-Permissions")));
+						}
 					} else if (args[0].equalsIgnoreCase("reload")) {
 						if (p.hasPermission(main.getConfig().getString("Permissions.Reload"))) {
 							main.reloadConfig();

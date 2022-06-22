@@ -3,14 +3,14 @@ name: CommandStack
 author: OLLIEZ4
 version: 1.1
 load: STARTUP
-dependencies: [Interface4]
+depend: [Interface4]
 description: A simple plugin to add commands to items
 website: https://ollieprojects.ga/
 
 commands:
   commandstack:
     description: Primary command
-    usage: /cstack <add - remove - view - reload - credits>
+    usage: /cstack <add - remove - view - reload - credits - version>
     aliases: cstack
     permission: commandstack.use
     

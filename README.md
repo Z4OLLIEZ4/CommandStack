@@ -11,6 +11,7 @@ CommandStack depends on [Interface4](https://www.spigotmc.org/resources/interfac
 | `/cstack view` | `commandstack.view` | Shown all commands assigned to the handheld item |
 | `/cstack reload` | `commandstack.reload` | Reloads translations |
 | `/cstack credits` | None | Mentions resource credits |
+| `/cstack version` | `commandstack.version` | Checks the current version |
 
 ## Configuration
 ```yaml

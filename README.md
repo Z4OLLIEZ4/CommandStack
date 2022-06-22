@@ -11,6 +11,7 @@ CommandStack depends on [Interface4](https://www.spigotmc.org/resources/interfac
 | `/cstack view` | `commandstack.view` | Shown all commands assigned to the handheld item |
 | `/cstack reload` | `commandstack.reload` | Reloads translations |
 | `/cstack credits` | None | Mentions resource credits |
+| `/cstack version` | `commandstack.version` | Checks the current version |
 
 ## Configuration
 ```yaml
@@ -31,6 +32,7 @@ Lang:
     - "&8-&7&o /cstack view"
     - "&8-&7&o /cstack reload"
     - "&8-&7&o /cstack credits"
+    - "&8-&7&o /cstack version"
   
 Settings:
   Prevent-Placement: true # Should CommandStack items be unplacable
@@ -45,4 +47,5 @@ Permissions:
   View: "commandstack.view"
   Remove: "commandstack.remove"
   Add: "commandstack.add"
+  Version: "commandstack.version"
 ```
